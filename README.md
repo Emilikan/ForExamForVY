@@ -4,3 +4,12 @@
 ```
 python3 Authorization.py
 ```
+--------------
+### Описание:
+- Authorization - главное окно
+- Account - регистрация
+- Administrator - окно администора
+- User - окно пользователя
+- dataBase.db - база данных с таблицами пользователей и администраторов
+(В файле Authorization есть функция create_tables(). При ее вызове бд будет создана и заполнена начальными данными)
+- Файлы: design.py, design_adm.py, design_reg.py и user.py - файлы с классами для отображения интерфейса
